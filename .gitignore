@@ -1,0 +1,60 @@
+# Root project (CodeCleanup) Unity specifics
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Subproject specific (e.g., Prototype1, Prototype2, etc.)
+# You might want to list all of your subprojects if they have different names.
+Prototype*/[Ll]ibrary/
+Prototype*/[Tt]emp/
+Prototype*/[Oo]bj/
+Prototype*/[Bb]uild/
+Prototype*/[Bb]uilds/
+Prototype*/[Ll]ogs/
+Prototype*/[Uu]ser[Ss]ettings/
+Prototype*/[Mm]emoryCaptures/
+Prototype*/[Rr]ecordings/
+Prototype*/[Aa]ssets/Plugins/Editor/JetBrains*
+Prototype*/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+Prototype*/[Aa]ssets/[Ss]treamingAssets/aa.meta
+Prototype*/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# General IDE and Build files
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
